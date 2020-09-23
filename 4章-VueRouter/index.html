@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Routerを活用したアプリケーション開発</title>
+</head>
+
+<body>
+    <div id="app">
+        <router-link to="/top">トップページ</router-link>
+        <router-link to="/users">ユーザー</router-link>
+        <router-view></router-view>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
